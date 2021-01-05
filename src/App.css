@@ -1,15 +1,17 @@
 .App {
-  
+  position: fixed;
+  top: 0;
+  left: 0;
 
-  
   text-align: center;
-
-}
-
-
-body {
   height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+body {
   overscroll-behavior-y: none;
+}
+.scroll {
 }
 
 .img-container {
@@ -22,7 +24,7 @@ body {
   justify-content: center;
   align-items: center;
 }
-  img {
-    width: 100%;
-    position: absolute;
-  }
+img {
+  width: 100%;
+  position: absolute;
+}
